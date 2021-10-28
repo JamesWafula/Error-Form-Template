@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Workplace Complaint Form</title>
+    <link href="css/fonts.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/all_forms.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<link href="css/form design.css" rel="stylesheet">
+	<script type="text/javascript" src="jscript/dropdown.js"></script>
+
+  </head>
+  <body>
+	  <div class="container">
+    <div class="testbox">
+      <form action="/">
+        <div class="primary_header">
+      <h1 class="title"> Medical Error Form | KNH</h1>
+    </div>
+		  <section>
+		<div class="div_left">
+		 <div class="item">
+          <p><strong>Date of Report</strong></p>
+          <input type="date" name="name" required/>
+          <i class="fas fa-calendar-alt"></i>
+        <p><strong>Date of Error</strong></p>
+          <input type="date" name="name" required/>
+          <i class="fas fa-calendar-alt"></i>
+        <p><strong>Time of Error</strong></p>
+          <input type="time" name="name" />
+          <i class="fas fa-clock"></i>
+        </div>
+		<div class="question">
+          <p><strong>Gender</strong></p>
+          <div class="question-answer">
+            <div>
+              <input type="radio" value="none" id="radio_1" name="recorded" />
+              <label for="radio_1" class="radio"><span>Male</span></label>
+            </div>
+            <div>
+              <input type="radio" value="none" id="radio_2" name="recorded" />
+              <label for="radio_2" class="radio"><span>Female</span></label>
+            </div>
+          </div>
+        </div>
+		  </div>
+		  <div class="div_right">
+		  <div class="item">
+          <p><strong>Patient Location at Time of Error </strong></p>
+          <div>
+            <input type="text" name="name" placeholder="Location of incidence" />
+          </div>
+         </div>
+        <div class="item">
+          <p><strong>Age of the patient (Years)</strong></p>
+          <input type="text" name="name"/>
+        </div>
+       <div class="item">
+          <p><strong>Diagnosis (No abbreviations) </strong></p>
+          <input type="text" name="name"/>
+        </div>
+	</div>
+		  </section>
+		  </div>
+         <div class="item">
+         <p>Staff safety related events</p>
+         <textarea rows="5"></textarea>
+          </div>
+         <div class="item">
+          <p><strong>Describe in brief how the error  occurred </strong></p>
+          <textarea rows="5"></textarea>
+        </div>
+        <div class="item">
+          <p><strong>What was the outcome? </strong></p>
+          <textarea rows="5"></textarea>
+        </div>
+        <div class="item">
+          <p><strong>Possible causes  and/or contributing factors (please tick most applicable)</strong></p>
+          <select>
+            <option value="">*Please select*</option>
+            <option value="A">Communication problems</option>
+            <option value="B">Inadequate information flow</option>
+            <option value="C">Patient-related issues</option>
+            <option value="D">Staff-related issues</option>
+            <option value="E">Device/Equipment Failure </option>
+            <option value="F">Lack of Device/Equipment</option>
+            <option value="G">Inadequate policies and procedures</option>
+            <option value="H" name="name" placeholder="City" >Others (specify)</option>
+            <textarea rows="5" name="name" placeholder="Specify here" >Others (specify here)</textarea>
+        </select>
+        </div>
+        <div class="item">
+          <p><strong>Preventive /mitigation measures</strong> </p>
+          <textarea rows="5"></textarea>
+        </div>
+		<p><strong>Type of Error(s) that occured (please tick as applicable): </strong></p>
+        <div class="btn-block">
+          <button type="submit" href="/">Send</button>
+        </div>
+      </div>
+   </div>
+  </body>
+</html>
